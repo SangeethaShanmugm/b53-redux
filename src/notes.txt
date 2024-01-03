@@ -1,0 +1,44 @@
+redux => state management tool  => complex
+
+Types
+---------
+
+1. redux
+2. redux-toolkit
+3. redux-persist
+
+Packages
+---------
+redux => enable the redux architecture(core library)
+react-redux => connect react components to redux store
+redux-toolkit => maintainable, organized
+
+Redux Terminology
+------------------
+
+store => manage all the states => global object
+action => CRUD Operation 
+reducer => what to add => function => current state and action Types
+dispatch => state updated
+
+
+Redux-Toolkit Terminology
+--------------------------
+
+Reducer + action  => createSlice
+setup redux store => configureStore(combine of reducer)
+
+steps
+-----
+
+1. Define the store => configureStore()
+2. Define the reducer + action  => createSlice()
+3. select(state) & dispatch(action) => useSelector & useDispatch
+
+Benefits
+--------
+1. centralized state management => store => complex
+2. get updated states
+3. debug => redux devTool chrome extension 
+4. performance
+
